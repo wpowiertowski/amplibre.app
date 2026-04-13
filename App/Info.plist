@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key>
+    <string>Amplibre</string>
+    <key>CFBundleDisplayName</key>
+    <string>Amplibre</string>
+    <key>CFBundleIdentifier</key>
+    <string>app.amplibre.Amplibre</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CFBundleShortVersionString</key>
+    <string>0.1.0</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleExecutable</key>
+    <string>Amplibre</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>26.0</string>
+    <key>NSAppleMusicUsageDescription</key>
+    <string>Amplibre needs access to your music library to discover and play your music collection.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Amplibre uses album artwork from your library.</string>
+    <key>CFBundleDocumentTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+                <string>wsz</string>
+            </array>
+            <key>CFBundleTypeName</key>
+            <string>Winamp Skin</string>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+            <key>LSItemContentTypes</key>
+            <array>
+                <string>app.amplibre.wsz</string>
+            </array>
+        </dict>
+        <dict>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+                <string>mp3</string>
+                <string>m4a</string>
+                <string>aac</string>
+                <string>flac</string>
+                <string>wav</string>
+                <string>aiff</string>
+                <string>ogg</string>
+                <string>opus</string>
+            </array>
+            <key>CFBundleTypeName</key>
+            <string>Audio File</string>
+            <key>CFBundleTypeRole</key>
+            <string>Viewer</string>
+        </dict>
+    </array>
+</dict>
+</plist>
